@@ -370,6 +370,14 @@ img[src$=".svg"] {
   height: 22px;
   vertical-align: middle; }
 
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+
 .jumbotron-home-1 {
   background-image: url(../images/PIA20357-1920x1200.jpg); }
 
