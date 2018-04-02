@@ -378,6 +378,36 @@ body {
   border-bottom: #008ed6 3px solid;
   opacity: 0.8; }
 
+#home-section {
+  background: url("/images/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
 .jumbotron-home-1 {
   background-image: url(../images/PIA20357-1920x1200.jpg); }
 
@@ -387,11 +417,12 @@ body {
 #content #example-table {
   font-size: 14px; }
 
-#home-section {
-  background: url("/src/images/home.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px; }
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
 
 .footer {
   margin-top: 30px;
